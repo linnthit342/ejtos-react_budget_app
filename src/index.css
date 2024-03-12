@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.currency-container {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  background-color: black;
+  color: aqua;
+  border-color: #d6d8db;
+}
+
+.currency-dropdown,
+.currency-dropdown option {
+  background-color: black;
+  color: aqua; /* Set default dropdown text color to red */
+}
+
+.currency-dropdown option:checked {
+  background-color:  aqua;
+  color: black; 
+}
+
+
+/* ExpenseItem.css */
+
+.increase-btn, .decrease-btn {
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 2rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.increase-btn {
+  background-color: green;
+}
+
+.decrease-btn {
+  background-color: red;
+}
